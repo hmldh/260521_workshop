@@ -1,0 +1,119 @@
+{
+  "schema_version": 2,
+  "active_work_id": "dashboard-plan-df847974",
+  "works": {
+    "dashboard-plan-df847974": {
+      "work_id": "dashboard-plan-df847974",
+      "active_plan": "D:\\20260521-workshop\\.omo\\plans\\dashboard-plan.md",
+      "plan_name": "dashboard-plan",
+      "status": "completed",
+      "started_at": "2026-05-21T06:24:58.786Z",
+      "updated_at": "2026-05-21T06:38:31.916Z",
+      "session_ids": [
+        "ses_1b6e83623ffeqKMfOK9U7jI6AJ"
+      ],
+      "session_origins": {
+        "ses_1b6e83623ffeqKMfOK9U7jI6AJ": "direct"
+      },
+      "agent": "atlas",
+      "task_sessions": {
+        "todo:1": {
+          "task_key": "todo:1",
+          "task_label": "1",
+          "task_title": "`dashboard/` 폴더 생성 + `index.html` + `style.css` 완성",
+          "session_id": "ses_1b6c998bbffeub7nWSEKMBjty3",
+          "agent": "Sisyphus-Junior",
+          "category": "visual-engineering",
+          "updated_at": "2026-05-21T06:27:42.124Z",
+          "started_at": "2026-05-21T06:27:26.788Z",
+          "status": "completed",
+          "ended_at": "2026-05-21T06:27:42.124Z",
+          "elapsed_ms": 15336
+        },
+        "todo:2": {
+          "task_key": "todo:2",
+          "task_label": "2",
+          "task_title": "`app.js` — 데이터 배열 + 렌더 함수 전부",
+          "session_id": "ses_1b6c77ee9ffe4ssZv5EUOOQLTc",
+          "agent": "Sisyphus-Junior",
+          "category": "frontend-dev",
+          "updated_at": "2026-05-21T06:29:19.286Z",
+          "started_at": "2026-05-21T06:29:04.869Z",
+          "status": "completed",
+          "ended_at": "2026-05-21T06:29:19.286Z",
+          "elapsed_ms": 14417
+        },
+        "todo:3": {
+          "task_key": "todo:3",
+          "task_label": "3",
+          "task_title": "`app.js` — 이벤트 핸들러 + 전략 저장 + 시뮬레이터",
+          "session_id": "ses_1b6c61123ffeqaEGrEVXckrFqZ",
+          "agent": "Sisyphus-Junior",
+          "category": "frontend-dev",
+          "updated_at": "2026-05-21T06:30:45.903Z",
+          "started_at": "2026-05-21T06:30:26.314Z",
+          "status": "completed",
+          "ended_at": "2026-05-21T06:30:45.903Z",
+          "elapsed_ms": 19589
+        }
+      },
+      "ended_at": "2026-05-21T06:38:31.916Z",
+      "elapsed_ms": 813130
+    }
+  },
+  "active_plan": "D:\\20260521-workshop\\.omo\\plans\\dashboard-plan.md",
+  "started_at": "2026-05-21T06:24:58.786Z",
+  "status": "completed",
+  "updated_at": "2026-05-21T06:38:31.916Z",
+  "session_ids": [
+    "ses_1b6e83623ffeqKMfOK9U7jI6AJ"
+  ],
+  "session_origins": {
+    "ses_1b6e83623ffeqKMfOK9U7jI6AJ": "direct"
+  },
+  "plan_name": "dashboard-plan",
+  "task_sessions": {
+    "todo:1": {
+      "task_key": "todo:1",
+      "task_label": "1",
+      "task_title": "`dashboard/` 폴더 생성 + `index.html` + `style.css` 완성",
+      "session_id": "ses_1b6c998bbffeub7nWSEKMBjty3",
+      "agent": "Sisyphus-Junior",
+      "category": "visual-engineering",
+      "updated_at": "2026-05-21T06:27:42.124Z",
+      "started_at": "2026-05-21T06:27:26.788Z",
+      "status": "completed",
+      "ended_at": "2026-05-21T06:27:42.124Z",
+      "elapsed_ms": 15336
+    },
+    "todo:2": {
+      "task_key": "todo:2",
+      "task_label": "2",
+      "task_title": "`app.js` — 데이터 배열 + 렌더 함수 전부",
+      "session_id": "ses_1b6c77ee9ffe4ssZv5EUOOQLTc",
+      "agent": "Sisyphus-Junior",
+      "category": "frontend-dev",
+      "updated_at": "2026-05-21T06:29:19.286Z",
+      "started_at": "2026-05-21T06:29:04.869Z",
+      "status": "completed",
+      "ended_at": "2026-05-21T06:29:19.286Z",
+      "elapsed_ms": 14417
+    },
+    "todo:3": {
+      "task_key": "todo:3",
+      "task_label": "3",
+      "task_title": "`app.js` — 이벤트 핸들러 + 전략 저장 + 시뮬레이터",
+      "session_id": "ses_1b6c61123ffeqaEGrEVXckrFqZ",
+      "agent": "Sisyphus-Junior",
+      "category": "frontend-dev",
+      "updated_at": "2026-05-21T06:30:45.903Z",
+      "started_at": "2026-05-21T06:30:26.314Z",
+      "status": "completed",
+      "ended_at": "2026-05-21T06:30:45.903Z",
+      "elapsed_ms": 19589
+    }
+  },
+  "agent": "atlas",
+  "ended_at": "2026-05-21T06:38:31.916Z",
+  "elapsed_ms": 813130
+}

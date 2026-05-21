@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>에이전트 오케스트레이션 대시보드</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header id="header">
+    <h1>🤖 에이전트 오케스트레이션 대시보드</h1>
+  </header>
+
+  <main id="main-grid">
+    <section id="panel-agents">
+      <h2>에이전트</h2>
+      <div class="panel-body" id="agent-list"></div>
+    </section>
+
+    <section id="panel-tasks">
+      <h2>작업 목록</h2>
+      <div class="panel-body">
+        <table class="task-table">
+          <thead>
+            <tr><th>작업</th><th>상태</th><th>담당</th><th>우선순위</th></tr>
+          </thead>
+          <tbody id="task-list-body"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="panel-logs">
+      <h2>로그·메모</h2>
+      <div class="panel-body">
+        <div id="log-list" class="log-list"></div>
+        <div class="memo-area">
+          <textarea id="memo-input" placeholder="메모 입력 후 저장 (Ctrl+Enter)..." rows="3"></textarea>
+          <button id="memo-save-btn">저장</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="panel-strategy">
+    <h2>모델 전략</h2>
+    <div class="strategy-grid">
+      <label class="strategy-item"><input type="radio" name="strategy" value="committee">
+        <div class="strategy-item__content"><span>🏛️</span><div><strong>위원회형</strong><p>모든 에이전트가 의견 제출 후 합의</p></div></div></label>
+      <label class="strategy-item"><input type="radio" name="strategy" value="leader" checked>
+        <div class="strategy-item__content"><span>👑</span><div><strong>리더형</strong><p>오케스트레이터가 최종 결정</p></div></div></label>
+      <label class="strategy-item"><input type="radio" name="strategy" value="hybrid">
+        <div class="strategy-item__content"><span>🔀</span><div><strong>하이브리드</strong><p>역할별 전문가가 담당 영역만 결정</p></div></div></label>
+      <label class="strategy-item"><input type="radio" name="strategy" value="routing">
+        <div class="strategy-item__content"><span>🗺️</span><div><strong>전문가 라우팅</strong><p>모델 강점에 따라 자동 배분</p></div></div></label>
+      <label class="strategy-item"><input type="radio" name="strategy" value="cost">
+        <div class="strategy-item__content"><span>💰</span><div><strong>비용 절감</strong><p>소형 모델 우선, 필요 시 대형 호출</p></div></div></label>
+    </div>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>

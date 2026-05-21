@@ -1,0 +1,273 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - heading "🤖 에이전트 오케스트레이션 대시보드" [level=1] [ref=e3]
+  - main [ref=e4]:
+    - generic [ref=e5]:
+      - heading "에이전트" [level=2] [ref=e6]
+      - generic [ref=e7]:
+        - generic [ref=e1104] [cursor=pointer]:
+          - generic [ref=e1105]:
+            - generic [ref=e1106]: 🎯
+            - generic [ref=e1107]: 오케스트레이터
+            - generic [ref=e1108]: idle
+          - generic [ref=e1109]: 전체 작업 분해 · 라우팅
+          - generic [ref=e1110]: claude-sonnet
+        - generic [ref=e1111] [cursor=pointer]:
+          - generic [ref=e1112]:
+            - generic [ref=e1113]: 📋
+            - generic [ref=e1114]: PM
+            - generic [ref=e1115]: idle
+          - generic [ref=e1116]: 계획 · 우선순위 · 승인
+          - generic [ref=e1117]: claude-haiku
+        - generic [ref=e1118] [cursor=pointer]:
+          - generic [ref=e1119]:
+            - generic [ref=e1120]: 🎨
+            - generic [ref=e1121]: UI/UX 디자이너
+            - generic [ref=e1122]: done
+          - generic [ref=e1123]: 화면 흐름 · 시각 구조
+          - generic [ref=e1124]: claude-haiku
+        - generic [ref=e1125] [cursor=pointer]:
+          - generic [ref=e1126]:
+            - generic [ref=e1127]: 💻
+            - generic [ref=e1128]: 프론트엔드
+            - generic [ref=e1129]: running
+          - generic [ref=e1130]: UI 구현 · 인터랙션
+          - generic [ref=e1131]: claude-sonnet
+        - generic [ref=e1132] [cursor=pointer]:
+          - generic [ref=e1133]:
+            - generic [ref=e1134]: ⚙️
+            - generic [ref=e1135]: 백엔드
+            - generic [ref=e1136]: idle
+          - generic [ref=e1137]: API · 데이터 · 서버
+          - generic [ref=e1138]: claude-haiku
+        - generic [ref=e1139] [cursor=pointer]:
+          - generic [ref=e1140]:
+            - generic [ref=e1141]: 🧪
+            - generic [ref=e1142]: TDD
+            - generic [ref=e1143]: idle
+          - generic [ref=e1144]: 테스트 코드 작성
+          - generic [ref=e1145]: claude-haiku
+        - generic [ref=e1146] [cursor=pointer]:
+          - generic [ref=e1147]:
+            - generic [ref=e1148]: 🔍
+            - generic [ref=e1149]: 코드 리뷰어
+            - generic [ref=e1150]: idle
+          - generic [ref=e1151]: 품질 · 일관성 검토
+          - generic [ref=e1152]: claude-haiku
+        - generic [ref=e1153] [cursor=pointer]:
+          - generic [ref=e1154]:
+            - generic [ref=e1155]: ✅
+            - generic [ref=e1156]: QA
+            - generic [ref=e1157]: idle
+          - generic [ref=e1158]: 실제 동작 검증
+          - generic [ref=e1159]: claude-haiku
+        - generic [ref=e1160] [cursor=pointer]:
+          - generic [ref=e1161]:
+            - generic [ref=e1162]: 🚀
+            - generic [ref=e1163]: 운영/인프라
+            - generic [ref=e1164]: idle
+          - generic [ref=e1165]: 배포 · 실행 안정성
+          - generic [ref=e1166]: claude-haiku
+    - generic [ref=e71]:
+      - heading "작업 목록" [level=2] [ref=e72]
+      - table [ref=e74]:
+        - rowgroup [ref=e75]:
+          - row "작업 상태 담당 우선순위" [ref=e76]:
+            - columnheader "작업" [ref=e77]
+            - columnheader "상태" [ref=e78]
+            - columnheader "담당" [ref=e79]
+            - columnheader "우선순위" [ref=e80]
+        - rowgroup [ref=e81]:
+          - row "레이아웃 설계 error 🎨 UI/UX 디자이너 high" [ref=e485] [cursor=pointer]:
+            - cell "레이아웃 설계" [ref=e486]
+            - cell "error" [ref=e487]
+            - cell "🎨 UI/UX 디자이너" [ref=e488]
+            - cell "high" [ref=e489]
+          - row "에이전트 카드 구현 running 💻 프론트엔드 high" [ref=e490] [cursor=pointer]:
+            - cell "에이전트 카드 구현" [ref=e491]
+            - cell "running" [ref=e492]
+            - cell "💻 프론트엔드" [ref=e493]
+            - cell "high" [ref=e494]
+          - row "API 명세 작성 pending ⚙️ 백엔드 medium" [ref=e495] [cursor=pointer]:
+            - cell "API 명세 작성" [ref=e496]
+            - cell "pending" [ref=e497]
+            - cell "⚙️ 백엔드" [ref=e498]
+            - cell "medium" [ref=e499]
+          - row "테스트 케이스 작성 pending 🧪 TDD medium" [ref=e500] [cursor=pointer]:
+            - cell "테스트 케이스 작성" [ref=e501]
+            - cell "pending" [ref=e502]
+            - cell "🧪 TDD" [ref=e503]
+            - cell "medium" [ref=e504]
+          - row "코드 리뷰 pending 🔍 코드 리뷰어 low" [ref=e505] [cursor=pointer]:
+            - cell "코드 리뷰" [ref=e506]
+            - cell "pending" [ref=e507]
+            - cell "🔍 코드 리뷰어" [ref=e508]
+            - cell "low" [ref=e509]
+          - row "QA 시나리오 실행 pending ✅ QA medium" [ref=e510] [cursor=pointer]:
+            - cell "QA 시나리오 실행" [ref=e511]
+            - cell "pending" [ref=e512]
+            - cell "✅ QA" [ref=e513]
+            - cell "medium" [ref=e514]
+    - generic [ref=e112]:
+      - heading "로그·메모" [level=2] [ref=e113]
+      - generic [ref=e114]:
+        - generic [ref=e115]:
+          - generic [ref=e1167]:
+            - generic [ref=e1168]: 00:00
+            - generic [ref=e1169]: 오케스트레이터
+            - generic [ref=e1170]: 대시보드 초기화 완료
+          - generic [ref=e1171]:
+            - generic [ref=e1172]: 00:01
+            - generic [ref=e1173]: PM
+            - generic [ref=e1174]: 작업 티켓 6개 생성
+          - generic [ref=e1175]:
+            - generic [ref=e1176]: 00:02
+            - generic [ref=e1177]: UI/UX 디자이너
+            - generic [ref=e1178]: 레이아웃 설계 완료
+          - generic [ref=e1179]:
+            - generic [ref=e1180]: 00:03
+            - generic [ref=e1181]: 프론트엔드
+            - generic [ref=e1182]: 카드 렌더링 구현 중
+          - generic [ref=e1183]:
+            - generic [ref=e1184]: 15:38
+            - generic [ref=e1185]: QA
+            - generic [ref=e1186]: 시나리오 실행 중
+          - generic [ref=e1187]:
+            - generic [ref=e1188]: 15:38
+            - generic [ref=e1189]: QA
+            - generic [ref=e1190]: 결함 없음
+          - generic [ref=e1191]:
+            - generic [ref=e1192]: 15:38
+            - generic [ref=e1193]: 프론트엔드
+            - generic [ref=e1194]: 컴포넌트 렌더링
+          - generic [ref=e1195]:
+            - generic [ref=e1196]: 15:38
+            - generic [ref=e1197]: 프론트엔드
+            - generic [ref=e1198]: 컴포넌트 렌더링
+          - generic [ref=e1199]:
+            - generic [ref=e1200]: 15:39
+            - generic [ref=e1201]: PM
+            - generic [ref=e1202]: 마일스톤 업데이트
+          - generic [ref=e1203]:
+            - generic [ref=e1204]: 15:39
+            - generic [ref=e1205]: 프론트엔드
+            - generic [ref=e1206]: 컴포넌트 렌더링
+          - generic [ref=e1207]:
+            - generic [ref=e1208]: 15:39
+            - generic [ref=e1209]: 오케스트레이터
+            - generic [ref=e1210]: 에이전트 배정 완료
+          - generic [ref=e1211]:
+            - generic [ref=e1212]: 15:39
+            - generic [ref=e1213]: 오케스트레이터
+            - generic [ref=e1214]: 병렬 실행 시작
+          - generic [ref=e1215]:
+            - generic [ref=e1216]: 15:39
+            - generic [ref=e1217]: PM
+            - generic [ref=e1218]: 우선순위 재정렬
+          - generic [ref=e1219]:
+            - generic [ref=e1220]: 15:39
+            - generic [ref=e1221]: 프론트엔드
+            - generic [ref=e1222]: CSS 수정 중
+          - generic [ref=e1223]:
+            - generic [ref=e1224]: 15:39
+            - generic [ref=e1225]: 프론트엔드
+            - generic [ref=e1226]: JS 이벤트 연결
+          - generic [ref=e1227]:
+            - generic [ref=e1228]: 15:39
+            - generic [ref=e1229]: QA
+            - generic [ref=e1230]: UI 검증 완료
+          - generic [ref=e1231]:
+            - generic [ref=e1232]: 15:39
+            - generic [ref=e1233]: 시스템
+            - generic [ref=e1234]: "\"레이아웃 설계\" → error"
+          - generic [ref=e1235]:
+            - generic [ref=e1236]: 15:39
+            - generic [ref=e1237]: 프론트엔드
+            - generic [ref=e1238]: CSS 수정 중
+          - generic [ref=e1239]:
+            - generic [ref=e1240]: 15:39
+            - generic [ref=e1241]: PM
+            - generic [ref=e1242]: 우선순위 재정렬
+          - generic [ref=e1243]:
+            - generic [ref=e1244]: 15:39
+            - generic [ref=e1245]: 오케스트레이터
+            - generic [ref=e1246]: 병렬 실행 시작
+          - generic [ref=e1247]:
+            - generic [ref=e1248]: 15:39
+            - generic [ref=e1249]: 오케스트레이터
+            - generic [ref=e1250]: 에이전트 배정 완료
+          - generic [ref=e1251]:
+            - generic [ref=e1252]: 15:39
+            - generic [ref=e1253]: PM
+            - generic [ref=e1254]: 우선순위 재정렬
+          - generic [ref=e1255]:
+            - generic [ref=e1256]: 15:39
+            - generic [ref=e1257]: QA
+            - generic [ref=e1258]: 결함 없음
+          - generic [ref=e1259]:
+            - generic [ref=e1260]: 15:39
+            - generic [ref=e1261]: 📝 메모
+            - generic [ref=e1262]: QA 검증 완료 확인
+          - generic [ref=e1263]:
+            - generic [ref=e1264]: 15:39
+            - generic [ref=e1265]: PM
+            - generic [ref=e1266]: 티켓 생성
+          - generic [ref=e1267]:
+            - generic [ref=e1268]: 15:40
+            - generic [ref=e1269]: PM
+            - generic [ref=e1270]: 마일스톤 업데이트
+          - generic [ref=e1271]:
+            - generic [ref=e1272]: 15:40
+            - generic [ref=e1273]: 오케스트레이터
+            - generic [ref=e1274]: 작업 라우팅 중...
+          - generic [ref=e1275]:
+            - generic [ref=e1276]: 15:40
+            - generic [ref=e1277]: QA
+            - generic [ref=e1278]: 시나리오 실행 중
+          - generic [ref=e1279]:
+            - generic [ref=e1280]: 15:40
+            - generic [ref=e1281]: QA
+            - generic [ref=e1282]: UI 검증 완료
+          - generic [ref=e1283]:
+            - generic [ref=e1284]: 15:40
+            - generic [ref=e1285]: QA
+            - generic [ref=e1286]: 결함 없음
+          - generic [ref=e1287]:
+            - generic [ref=e1288]: 15:40
+            - generic [ref=e1289]: 프론트엔드
+            - generic [ref=e1290]: CSS 수정 중
+          - generic [ref=e1291]:
+            - generic [ref=e1292]: 15:40
+            - generic [ref=e1293]: 시스템
+            - generic [ref=e1294]: 전략 변경 → committee
+        - generic [ref=e132]:
+          - textbox "메모 입력 후 저장 (Ctrl+Enter)..." [ref=e133]
+          - button "저장" [ref=e134] [cursor=pointer]
+  - contentinfo [ref=e135]:
+    - heading "모델 전략" [level=2] [ref=e136]
+    - generic [ref=e137]:
+      - generic [ref=e139] [cursor=pointer]:
+        - generic [ref=e140]: 🏛️
+        - generic [ref=e141]:
+          - strong [ref=e142]: 위원회형
+          - paragraph [ref=e143]: 모든 에이전트가 의견 제출 후 합의
+      - generic [ref=e145] [cursor=pointer]:
+        - generic [ref=e146]: 👑
+        - generic [ref=e147]:
+          - strong [ref=e148]: 리더형
+          - paragraph [ref=e149]: 오케스트레이터가 최종 결정
+      - generic [ref=e151] [cursor=pointer]:
+        - generic [ref=e152]: 🔀
+        - generic [ref=e153]:
+          - strong [ref=e154]: 하이브리드
+          - paragraph [ref=e155]: 역할별 전문가가 담당 영역만 결정
+      - generic [ref=e157] [cursor=pointer]:
+        - generic [ref=e158]: 🗺️
+        - generic [ref=e159]:
+          - strong [ref=e160]: 전문가 라우팅
+          - paragraph [ref=e161]: 모델 강점에 따라 자동 배분
+      - generic [ref=e163] [cursor=pointer]:
+        - generic [ref=e164]: 💰
+        - generic [ref=e165]:
+          - strong [ref=e166]: 비용 절감
+          - paragraph [ref=e167]: 소형 모델 우선, 필요 시 대형 호출

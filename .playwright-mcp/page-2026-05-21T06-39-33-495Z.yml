@@ -1,0 +1,157 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - heading "🤖 에이전트 오케스트레이션 대시보드" [level=1] [ref=e3]
+  - main [ref=e4]:
+    - generic [ref=e5]:
+      - heading "에이전트" [level=2] [ref=e6]
+      - generic [ref=e7]:
+        - generic [ref=e422] [cursor=pointer]:
+          - generic [ref=e423]:
+            - generic [ref=e424]: 🎯
+            - generic [ref=e425]: 오케스트레이터
+            - generic [ref=e426]: done
+          - generic [ref=e427]: 전체 작업 분해 · 라우팅
+          - generic [ref=e428]: claude-sonnet
+        - generic [ref=e429] [cursor=pointer]:
+          - generic [ref=e430]:
+            - generic [ref=e431]: 📋
+            - generic [ref=e432]: PM
+            - generic [ref=e433]: idle
+          - generic [ref=e434]: 계획 · 우선순위 · 승인
+          - generic [ref=e435]: claude-haiku
+        - generic [ref=e436] [cursor=pointer]:
+          - generic [ref=e437]:
+            - generic [ref=e438]: 🎨
+            - generic [ref=e439]: UI/UX 디자이너
+            - generic [ref=e440]: done
+          - generic [ref=e441]: 화면 흐름 · 시각 구조
+          - generic [ref=e442]: claude-haiku
+        - generic [ref=e443] [cursor=pointer]:
+          - generic [ref=e444]:
+            - generic [ref=e445]: 💻
+            - generic [ref=e446]: 프론트엔드
+            - generic [ref=e447]: running
+          - generic [ref=e448]: UI 구현 · 인터랙션
+          - generic [ref=e449]: claude-sonnet
+        - generic [ref=e450] [cursor=pointer]:
+          - generic [ref=e451]:
+            - generic [ref=e452]: ⚙️
+            - generic [ref=e453]: 백엔드
+            - generic [ref=e454]: idle
+          - generic [ref=e455]: API · 데이터 · 서버
+          - generic [ref=e456]: claude-haiku
+        - generic [ref=e457] [cursor=pointer]:
+          - generic [ref=e458]:
+            - generic [ref=e459]: 🧪
+            - generic [ref=e460]: TDD
+            - generic [ref=e461]: idle
+          - generic [ref=e462]: 테스트 코드 작성
+          - generic [ref=e463]: claude-haiku
+        - generic [ref=e464] [cursor=pointer]:
+          - generic [ref=e465]:
+            - generic [ref=e466]: 🔍
+            - generic [ref=e467]: 코드 리뷰어
+            - generic [ref=e468]: idle
+          - generic [ref=e469]: 품질 · 일관성 검토
+          - generic [ref=e470]: claude-haiku
+        - generic [ref=e471] [cursor=pointer]:
+          - generic [ref=e472]:
+            - generic [ref=e473]: ✅
+            - generic [ref=e474]: QA
+            - generic [ref=e475]: done
+          - generic [ref=e476]: 실제 동작 검증
+          - generic [ref=e477]: claude-haiku
+        - generic [ref=e478] [cursor=pointer]:
+          - generic [ref=e479]:
+            - generic [ref=e480]: 🚀
+            - generic [ref=e481]: 운영/인프라
+            - generic [ref=e482]: idle
+          - generic [ref=e483]: 배포 · 실행 안정성
+          - generic [ref=e484]: claude-haiku
+    - generic [ref=e71]:
+      - heading "작업 목록" [level=2] [ref=e72]
+      - table [ref=e74]:
+        - rowgroup [ref=e75]:
+          - row "작업 상태 담당 우선순위" [ref=e76]:
+            - columnheader "작업" [ref=e77]
+            - columnheader "상태" [ref=e78]
+            - columnheader "담당" [ref=e79]
+            - columnheader "우선순위" [ref=e80]
+        - rowgroup [ref=e81]:
+          - row "레이아웃 설계 error 🎨 UI/UX 디자이너 high" [ref=e485] [cursor=pointer]:
+            - cell "레이아웃 설계" [ref=e486]
+            - cell "error" [ref=e487]
+            - cell "🎨 UI/UX 디자이너" [ref=e488]
+            - cell "high" [ref=e489]
+          - row "에이전트 카드 구현 running 💻 프론트엔드 high" [ref=e490] [cursor=pointer]:
+            - cell "에이전트 카드 구현" [ref=e491]
+            - cell "running" [ref=e492]
+            - cell "💻 프론트엔드" [ref=e493]
+            - cell "high" [ref=e494]
+          - row "API 명세 작성 pending ⚙️ 백엔드 medium" [ref=e495] [cursor=pointer]:
+            - cell "API 명세 작성" [ref=e496]
+            - cell "pending" [ref=e497]
+            - cell "⚙️ 백엔드" [ref=e498]
+            - cell "medium" [ref=e499]
+          - row "테스트 케이스 작성 pending 🧪 TDD medium" [ref=e500] [cursor=pointer]:
+            - cell "테스트 케이스 작성" [ref=e501]
+            - cell "pending" [ref=e502]
+            - cell "🧪 TDD" [ref=e503]
+            - cell "medium" [ref=e504]
+          - row "코드 리뷰 pending 🔍 코드 리뷰어 low" [ref=e505] [cursor=pointer]:
+            - cell "코드 리뷰" [ref=e506]
+            - cell "pending" [ref=e507]
+            - cell "🔍 코드 리뷰어" [ref=e508]
+            - cell "low" [ref=e509]
+          - row "QA 시나리오 실행 pending ✅ QA medium" [ref=e510] [cursor=pointer]:
+            - cell "QA 시나리오 실행" [ref=e511]
+            - cell "pending" [ref=e512]
+            - cell "✅ QA" [ref=e513]
+            - cell "medium" [ref=e514]
+    - generic [ref=e112]:
+      - heading "로그·메모" [level=2] [ref=e113]
+      - generic [ref=e114]:
+        - generic [ref=e115]:
+          - generic [ref=e515]:
+            - generic [ref=e516]: 00:00
+            - generic [ref=e517]: 오케스트레이터
+            - generic [ref=e518]: 대시보드 초기화 완료
+          - generic [ref=e519]:
+            - generic [ref=e520]: 15:39
+            - generic [ref=e521]: 오케스트레이터
+            - generic [ref=e522]: 에이전트 배정 완료
+          - generic [ref=e523]:
+            - generic [ref=e524]: 15:39
+            - generic [ref=e525]: 오케스트레이터
+            - generic [ref=e526]: 병렬 실행 시작
+        - generic [ref=e132]:
+          - textbox "메모 입력 후 저장 (Ctrl+Enter)..." [ref=e133]
+          - button "저장" [ref=e134] [cursor=pointer]
+  - contentinfo [ref=e135]:
+    - heading "모델 전략" [level=2] [ref=e136]
+    - generic [ref=e137]:
+      - generic [ref=e139] [cursor=pointer]:
+        - generic [ref=e140]: 🏛️
+        - generic [ref=e141]:
+          - strong [ref=e142]: 위원회형
+          - paragraph [ref=e143]: 모든 에이전트가 의견 제출 후 합의
+      - generic [ref=e145] [cursor=pointer]:
+        - generic [ref=e146]: 👑
+        - generic [ref=e147]:
+          - strong [ref=e148]: 리더형
+          - paragraph [ref=e149]: 오케스트레이터가 최종 결정
+      - generic [ref=e151] [cursor=pointer]:
+        - generic [ref=e152]: 🔀
+        - generic [ref=e153]:
+          - strong [ref=e154]: 하이브리드
+          - paragraph [ref=e155]: 역할별 전문가가 담당 영역만 결정
+      - generic [ref=e157] [cursor=pointer]:
+        - generic [ref=e158]: 🗺️
+        - generic [ref=e159]:
+          - strong [ref=e160]: 전문가 라우팅
+          - paragraph [ref=e161]: 모델 강점에 따라 자동 배분
+      - generic [ref=e163] [cursor=pointer]:
+        - generic [ref=e164]: 💰
+        - generic [ref=e165]:
+          - strong [ref=e166]: 비용 절감
+          - paragraph [ref=e167]: 소형 모델 우선, 필요 시 대형 호출
