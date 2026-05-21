@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>☕ Nespresso Guide</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header id="header">
+    <div class="header-inner">
+      <h1>☕ Nespresso Guide</h1>
+      <input type="search" id="search-input" placeholder="캡슐 이름 검색...">
+      <select id="sort-select">
+        <option value="default">기본 순서</option>
+        <option value="intensity-asc">강도 낮은 순</option>
+        <option value="intensity-desc">강도 높은 순</option>
+        <option value="price-asc">가격 낮은 순</option>
+        <option value="price-desc">가격 높은 순</option>
+      </select>
+    </div>
+  </header>
+
+  <div id="main-layout">
+    <aside id="sidebar">
+      <h2>필터</h2>
+
+      <div class="filter-group">
+        <label class="filter-label">라인</label>
+        <div class="filter-chips" id="filter-line">
+          <button class="chip active" data-value="all">전체</button>
+          <button class="chip" data-value="original">Original</button>
+          <button class="chip" data-value="vertuo">Vertuo</button>
+        </div>
+      </div>
+
+      <div class="filter-group">
+        <label class="filter-label">강도</label>
+        <div class="range-wrapper">
+          <input type="range" id="filter-intensity" min="1" max="13" value="13">
+          <span id="intensity-display">1 ~ 13</span>
+        </div>
+      </div>
+
+      <div class="filter-group">
+        <label class="filter-label">컵 사이즈</label>
+        <div class="filter-chips" id="filter-cup">
+          <button class="chip active" data-value="all">전체</button>
+          <button class="chip" data-value="espresso">Espresso</button>
+          <button class="chip" data-value="lungo">Lungo</button>
+          <button class="chip" data-value="gran lungo">Gran Lungo</button>
+          <button class="chip" data-value="mug">Mug</button>
+        </div>
+      </div>
+
+      <button id="reset-btn">필터 초기화</button>
+    </aside>
+
+    <div id="grid-wrapper">
+      <p id="capsule-count"></p>
+      <main id="capsule-grid"></main>
+    </div>
+  </div>
+
+  <section id="recommend">
+    <h2>✨ 추천 캡슐</h2>
+    <div id="recommend-list"></div>
+  </section>
+
+  <script src="app.js" defer></script>
+</body>
+</html>

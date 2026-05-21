@@ -1,0 +1,441 @@
+- generic [active] [ref=e1]:
+  - region "Free Shipping Banner" [ref=e3]:
+    - button "Prev" [ref=e4] [cursor=pointer]:
+      - img [ref=e5]
+    - generic [ref=e8]:
+      - paragraph [ref=e12] [cursor=pointer]: Subscribe today and save 10% on orders over $75 or more
+      - paragraph [ref=e16] [cursor=pointer]: Login for Free Shipping on orders $50+ (excl tax). Arrives in 2-4 Business Days.
+      - paragraph [ref=e20] [cursor=pointer]: Free coffee samples in every order!
+      - paragraph [ref=e24] [cursor=pointer]: New to Nespresso? Receive welcome gifts after your 1st and 2nd coffee order.
+      - paragraph [ref=e28] [cursor=pointer]: Subscribe today and save 10% on orders over $75 or more
+      - paragraph [ref=e32] [cursor=pointer]: Login for Free Shipping on orders $50+ (excl tax). Arrives in 2-4 Business Days.
+      - paragraph [ref=e36] [cursor=pointer]: Free coffee samples in every order!
+      - paragraph [ref=e40] [cursor=pointer]: New to Nespresso? Receive welcome gifts after your 1st and 2nd coffee order.
+      - paragraph [ref=e44] [cursor=pointer]: Subscribe today and save 10% on orders over $75 or more
+    - button "Next" [ref=e45] [cursor=pointer]:
+      - img [ref=e46]
+  - banner "main header" [ref=e48]:
+    - generic [ref=e49]: Header
+    - banner [ref=e50]:
+      - generic [ref=e53]:
+        - link "Skip to main content" [ref=e54] [cursor=pointer]:
+          - /url: "#main-content"
+        - banner [ref=e55]:
+          - generic [ref=e56]:
+            - link "Go to Nespresso homepage" [ref=e58] [cursor=pointer]:
+              - /url: /us/en
+              - img "Nespresso" [ref=e59]
+            - navigation "Main navigation":
+              - menubar "Main menu":
+                - menuitem "Coffee"
+                - menu "Coffee submenu":
+                  - menuitem "Coffee":
+                    - generic:
+                      - img
+                    - generic: Coffee
+                  - generic:
+                    - generic:
+                      - generic:
+                        - link "Shop Vertuo Coffee Shop Vertuo Coffee Capsules For Vertuo Machines":
+                          - /url: /us/en/vertuo-coffee-pods
+                          - img "Shop Vertuo Coffee"
+                          - generic:
+                            - generic: Shop Vertuo Coffee
+                            - generic: Capsules For Vertuo Machines
+                      - generic:
+                        - link "Shop Original Espresso Shop Original Espresso Capsules For Original Machines":
+                          - /url: /us/en/original-coffee-pods
+                          - img "Shop Original Espresso"
+                          - generic:
+                            - generic: Shop Original Espresso
+                            - generic: Capsules For Original Machines
+                    - generic:
+                      - link "Explore the Vertuo System":
+                        - /url: /us/en/choose-your-technology-vertuo
+                      - link "Coffee Recipes":
+                        - /url: /us/en/coffee-recipes
+                      - link "Capsule Recycling":
+                        - /url: /us/en/recycling
+                - menuitem "Machines"
+                - menu "Machines submenu":
+                  - menuitem "Machines":
+                    - generic:
+                      - img
+                    - generic: Machines
+                  - generic:
+                    - generic:
+                      - generic:
+                        - link "Shop All Machines Shop Vertuo Machines Compatible with Vertuo Capsules":
+                          - /url: /us/en/vertuo-coffee-machines
+                          - img "Shop All Machines"
+                          - generic:
+                            - generic: Shop Vertuo Machines
+                            - generic: Compatible with Vertuo Capsules
+                      - generic:
+                        - link "Shop Original Machines Shop Original Machines Compatible with Original Capsules":
+                          - /url: /us/en/original-coffee-machines
+                          - img "Shop Original Machines"
+                          - generic:
+                            - generic: Shop Original Machines
+                            - generic: Compatible with Original Capsules
+                    - generic:
+                      - link "What's the Difference?":
+                        - /url: /us/en/choose-your-technology
+                      - link "Compare Machines":
+                        - /url: /us/en/nespresso-machine-comparison
+                      - link "Machine Care":
+                        - /url: /us/en/machine-assistance
+                      - link "ReLove | Refurbished Machines":
+                        - /url: /us/en/relove-refurbished-coffee-machines
+                      - link "25% off Machine Bundles":
+                        - /url: /us/en/vertuo-coffee-machines/build-bundle/
+                - menuitem "Accessories"
+                - menu "Accessories submenu":
+                  - menuitem "Accessories":
+                    - generic:
+                      - img
+                    - generic: Accessories
+                  - generic:
+                    - generic:
+                      - generic:
+                        - link "Shop Accessories By Type Shop All Accessories Shop All Accessories":
+                          - /url: /us/en/accessories
+                          - img "Shop Accessories By Type"
+                          - generic:
+                            - generic: Shop All Accessories
+                            - generic: Shop All Accessories
+                    - generic:
+                      - link "Pink Iced Tumbler":
+                        - /url: /us/en/order/accessories/vertuo/iced-coffee-tumbler-bubble-gum
+                      - link "Lavender Iced Tumbler":
+                        - /url: /us/en/order/accessories/vertuo/iced-coffee-tumbler-lavender
+                      - link "NanoFoamer":
+                        - /url: /us/en/order/accessories/vertuo/nanofoamer
+                      - link "Aeroccino3":
+                        - /url: /us/en/order/accessories/vertuo/aeroccino3-black
+                      - link "Cleaning & Descaling Kit":
+                        - /url: /us/en/order/accessories/vertuo/descaling-kit
+                - menuitem "Collections"
+                - menu "Collections submenu":
+                  - menuitem "Collections":
+                    - generic:
+                      - img
+                    - generic: Collections
+                  - generic:
+                    - generic:
+                      - generic:
+                        - link "Cinnamon and Candied Tamarind, Festive Collection Double Espresso Welcome to Nespresso Shop Our Best Sellers":
+                          - /url: /us/en/nespresso-exclusives-vertuo
+                          - img "Cinnamon and Candied Tamarind, Festive Collection Double Espresso"
+                          - generic:
+                            - generic: Welcome to Nespresso
+                            - generic: Shop Our Best Sellers
+                      - generic:
+                        - link "What’s New What’s New Explore Vertuo World":
+                          - /url: /us/en/vertuo-world
+                          - img "What’s New"
+                          - generic:
+                            - generic: What’s New
+                            - generic: Explore Vertuo World
+                    - generic:
+                      - link "Shop Starbucks® by Nespresso":
+                        - /url: /us/en/starbucks-by-nespresso
+                      - link "Shop Blue Bottle":
+                        - /url: /us/en/blue-bottle-partnership
+                      - link "Shop SAMRA Origins":
+                        - /url: /us/en/samra-origins
+                      - link "Shop Nespresso Exclusives":
+                        - /url: /us/en/nespresso-exclusives-vertuo
+                      - link "Shop Iced Coffee":
+                        - /url: /us/en/iced-coffee-collection
+                      - link "Shop eGift Cards":
+                        - /url: "/us/en/service-e-gift-card-purchase "
+                - menuitem "AutoReplenish"
+                - menuitem "Sustainability & Recycling"
+                - menu "Sustainability & Recycling submenu":
+                  - menuitem "Sustainability & Recycling":
+                    - generic:
+                      - img
+                    - generic: Sustainability & Recycling
+                  - generic:
+                    - generic:
+                      - generic:
+                        - 'link "Featured: A Window to Coffee Farms Choose to Recycle Learn More About Recycling with Nespresso"':
+                          - /url: /us/en/recycling
+                          - 'img "Featured: A Window to Coffee Farms"'
+                          - generic:
+                            - generic: Choose to Recycle
+                            - generic: Learn More About Recycling with Nespresso
+                      - generic:
+                        - link "Sustainability Sustainability Coffee As a Force For Good":
+                          - /url: /us/en/sustainability
+                          - img "Sustainability"
+                          - generic:
+                            - generic: Sustainability
+                            - generic: Coffee As a Force For Good
+                    - generic:
+                      - link "Certified B Corp":
+                        - /url: /us/en/b-corp
+                      - link "Protecting the Environment":
+                        - /url: /us/en/climate
+                      - 'link "Circularity: People & The Planet"':
+                        - /url: /us/en/circularity
+                      - link "Coffee is Community":
+                        - /url: /us/en/community
+                      - link "Order Recycling Bags":
+                        - /url: "/us/en/order/accessories/vertuo/recycling-bag "
+                      - link "Find a Dropoff Location":
+                        - /url: /us/en/storeLocator
+                - menuitem "Store Locator"
+                - menuitem "For Business"
+            - toolbar "Quick actions" [ref=e60]:
+              - status [ref=e61]
+              - button "Search" [ref=e62] [cursor=pointer]:
+                - img [ref=e64]
+              - button "Account" [ref=e66] [cursor=pointer]:
+                - img [ref=e68]
+              - button "Shopping Bag" [ref=e70] [cursor=pointer]:
+                - img [ref=e72]
+              - button "Open menu" [ref=e74] [cursor=pointer]:
+                - img [ref=e76]
+      - generic [ref=e80]:
+        - link:
+          - /url: https://www.nespresso.com/us/en
+        - generic [ref=e81]:
+          - button [ref=e84] [cursor=pointer]:
+            - img [ref=e85]
+          - button "SIGN IN / CREATE ACCOUNT" [ref=e89] [cursor=pointer]:
+            - generic [ref=e90]: 
+            - text: SIGN IN / CREATE ACCOUNT
+          - generic [ref=e91]:
+            - heading "Shopping bag dropdown" [level=2] [ref=e92]
+            - button "YOUR CART( contains 0)" [ref=e93] [cursor=pointer]:
+              - generic [ref=e94]: 
+              - text: YOUR CART(
+              - generic [ref=e95]: contains
+              - text: 0)
+      - generic:
+        - region "Skip Links":
+          - link "Skip to Content":
+            - /url: "#main"
+            - text: Skip to Content
+            - generic:
+              - generic: ↵
+              - text: ENTER
+          - link "Skip to Menu":
+            - /url: "#top"
+            - text: Skip to Menu
+            - generic:
+              - generic: ↵
+              - text: ENTER
+          - link "Skip to Footer":
+            - /url: "#footer"
+            - text: Skip to Footer
+            - generic:
+              - generic: ↵
+              - text: ENTER
+  - main [ref=e96]:
+    - region "Promotional Banner" [ref=e98]:
+      - generic [ref=e102]:
+        - mark [ref=e105]: NESPRESSO EXCLUSIVE OFFER
+        - heading "Free Tote, Ice Cube Tray & Coffee Sleeve" [level=3] [ref=e106]
+        - generic [ref=e107]:
+          - generic [ref=e108]:
+            - generic [ref=e109]:
+              - paragraph [ref=e110]: "20+ Vertuo Sleeves:"
+              - button "TOTE2026" [ref=e111] [cursor=pointer]:
+                - generic [ref=e112]: TOTE2026
+                - img [ref=e114]
+            - generic [ref=e116]:
+              - paragraph [ref=e117]: "25+ Original Sleeves:"
+              - button "TOTE26" [ref=e118] [cursor=pointer]:
+                - generic [ref=e119]: TOTE26
+                - img [ref=e121]
+          - button "Details" [ref=e124] [cursor=pointer]:
+            - generic [ref=e125]: Details
+    - generic [ref=e126]: You are on the main content
+    - generic [ref=e128]:
+      - generic [ref=e135]:
+        - generic [ref=e136]:
+          - link "SHOP ALL COFFEES" [ref=e138] [cursor=pointer]:
+            - /url: /us/en/original-coffee-pods
+            - generic [ref=e139]: SHOP ALL COFFEES
+          - img "Capriccio Coffee Capsule"
+        - generic [ref=e142]:
+          - paragraph [ref=e143]: Original
+          - paragraph [ref=e144]: Espresso
+          - heading "Capriccio" [level=1] [ref=e145]
+          - paragraph [ref=e146]: Rich & Distinctive
+          - generic "Intensity 5 on 11" [ref=e148]:
+            - text: Intensity
+            - text: "5"
+          - generic [ref=e163]:
+            - generic [ref=e164]:
+              - paragraph [ref=e165]: $9.00
+              - paragraph [ref=e166]: "Per Capsule: $0.90"
+              - generic [ref=e167]: $9.00 euros per sleeve
+            - button "You have no Capriccio in your basket. Activate to add the product" [ref=e172] [cursor=pointer]:
+              - generic: 
+              - generic [ref=e173]: You have no Capriccio in your basket. Activate to add the product
+              - generic [ref=e174]: ADD TO BAG
+              - text: 
+      - generic [ref=e180]:
+        - generic [ref=e181]:
+          - heading "TASTE" [level=2] [ref=e182]
+          - generic [ref=e183]: Let the combination of light acidity and a savory cereal note surprise you in this refreshing but deep light-roasted Arabica-Robusta espresso blend.
+        - generic [ref=e184]:
+          - generic [ref=e185]:
+            - generic [ref=e188]:
+              - generic [ref=e189]: Best served as
+              - generic [ref=e190]:
+                - img [ref=e193]
+                - generic [ref=e195]:
+                  - text: Espresso
+                  - text: 1.35 fl oz
+            - generic [ref=e198]:
+              - generic [ref=e199]: Notes
+              - generic [ref=e200]:
+                - img [ref=e203]
+                - generic [ref=e206]: Woody & Earthy
+          - generic [ref=e208]:
+            - generic [ref=e209]:
+              - paragraph [ref=e210]: Bitterness
+              - paragraph [ref=e213]: 3 of 5
+              - img [ref=e224] [cursor=pointer]
+            - generic [ref=e227]:
+              - paragraph [ref=e228]: Acidity
+              - paragraph [ref=e231]: 3 of 5
+              - img [ref=e242] [cursor=pointer]
+            - generic [ref=e245]:
+              - paragraph [ref=e246]: Roastiness
+              - paragraph [ref=e249]: 2 of 5
+              - img [ref=e260] [cursor=pointer]
+  - contentinfo [ref=e263]:
+    - contentinfo [ref=e264]:
+      - generic [ref=e266]:
+        - generic [ref=e270]:
+          - heading "100% Secure Payments" [level=2] [ref=e271]
+          - list [ref=e272]:
+            - listitem [ref=e273]:
+              - generic [ref=e274]:
+                - img [ref=e276]
+                - generic [ref=e283]: Mastercard
+            - listitem [ref=e284]:
+              - generic [ref=e285]:
+                - img [ref=e287]
+                - generic [ref=e294]: Visa
+            - listitem [ref=e295]:
+              - generic [ref=e296]:
+                - img [ref=e298]
+                - generic [ref=e303]: American Express
+            - listitem [ref=e304]:
+              - generic [ref=e305]:
+                - img [ref=e307]
+                - generic [ref=e314]: Paypal
+            - listitem [ref=e315]:
+              - generic [ref=e316]:
+                - img [ref=e318]
+                - generic [ref=e323]: Apple pay
+            - listitem [ref=e324]:
+              - generic [ref=e325]:
+                - img [ref=e327]
+                - generic [ref=e336]: Google Pay
+        - generic [ref=e340]:
+          - generic [ref=e341]:
+            - generic [ref=e342]:
+              - link "Go to country location page Website country location is United States" [ref=e343] [cursor=pointer]:
+                - /url: /us/en/country
+                - img [ref=e344]
+              - button "Language" [ref=e346] [cursor=pointer]
+            - generic [ref=e347]:
+              - list [ref=e349]:
+                - listitem [ref=e350]:
+                  - link "FAQ" [ref=e351] [cursor=pointer]:
+                    - /url: /us/en/service-faq
+                - listitem [ref=e352]:
+                  - link "AutoReplenish" [ref=e353] [cursor=pointer]:
+                    - /url: /us/en/autoreplenish
+                - listitem [ref=e354]:
+                  - link "eGift Cards" [ref=e355] [cursor=pointer]:
+                    - /url: /us/en/service-e-gift-card-purchase
+                - listitem [ref=e356]:
+                  - link "Store Locator" [ref=e357] [cursor=pointer]:
+                    - /url: /us/en/storeLocator
+                - listitem [ref=e358]:
+                  - link "Shipping & Returns" [ref=e359] [cursor=pointer]:
+                    - /url: /us/en/shipping-and-returns
+                - listitem [ref=e360]:
+                  - link "Contact" [ref=e361] [cursor=pointer]:
+                    - /url: /us/en/service-customer-care
+                - listitem [ref=e362]:
+                  - link "For Business" [ref=e363] [cursor=pointer]:
+                    - /url: /pro/us/en/
+                - listitem [ref=e364]:
+                  - link "Referral Rewards" [ref=e365] [cursor=pointer]:
+                    - /url: /us/en/nespressoreferral
+              - list [ref=e367]:
+                - listitem [ref=e368]:
+                  - link "Nestle Employee Registration" [ref=e369] [cursor=pointer]:
+                    - /url: https://www.cswebresources.com/nespresso/discount_form.php
+                - listitem [ref=e370]:
+                  - link "Careers" [ref=e371] [cursor=pointer]:
+                    - /url: https://nestle-nespresso.com/careers
+                - listitem [ref=e372]:
+                  - link "Legal & CA Transparency in Supply Chain" [ref=e373] [cursor=pointer]:
+                    - /url: /us/en/legal
+                - listitem [ref=e374]:
+                  - link "Privacy Policy" [ref=e375] [cursor=pointer]:
+                    - /url: /us/en/privacy-policy
+                - listitem [ref=e376]:
+                  - link "Notice at Collection" [ref=e377] [cursor=pointer]:
+                    - /url: /us/en/notice-at-collection
+                - listitem [ref=e378]:
+                  - button "Your Privacy Choices" [ref=e379] [cursor=pointer]
+                - listitem [ref=e380]:
+                  - link "Sitemap" [ref=e381] [cursor=pointer]:
+                    - /url: /us/en/sitemap
+                - listitem [ref=e382]:
+                  - link "Media Center" [ref=e383] [cursor=pointer]:
+                    - /url: https://nestle-nespresso.com/
+                - listitem [ref=e384]:
+                  - link "Accessibility" [ref=e385] [cursor=pointer]:
+                    - /url: /us/en/accessibility
+          - generic [ref=e386]:
+            - generic [ref=e387]:
+              - paragraph [ref=e388]: Follow Nespresso on
+              - list [ref=e389]:
+                - listitem [ref=e390]:
+                  - link "Facebook" [ref=e391] [cursor=pointer]:
+                    - /url: https://www.facebook.com/Nespresso
+                    - img [ref=e393]
+                - listitem [ref=e395]:
+                  - link "X" [ref=e396] [cursor=pointer]:
+                    - /url: https://x.com/nespresso
+                    - img [ref=e398]
+                - listitem [ref=e400]:
+                  - link "Instagram" [ref=e401] [cursor=pointer]:
+                    - /url: https://www.instagram.com/nespressousa
+                    - img [ref=e403]
+                - listitem [ref=e405]:
+                  - link "Youtube" [ref=e406] [cursor=pointer]:
+                    - /url: https://www.youtube.com/user/nespresso
+                    - img [ref=e408]
+                - listitem [ref=e410]:
+                  - link "Pinterest" [ref=e411] [cursor=pointer]:
+                    - /url: https://www.pinterest.com/nespresso/
+                    - img [ref=e413]
+            - link "Top of the page" [ref=e416] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - img [ref=e418]
+              - text: Top of the page
+            - generic [ref=e420]:
+              - link "Nespresso home page" [ref=e421] [cursor=pointer]:
+                - /url: https://www.nespresso.com/us/en
+                - img [ref=e423]
+              - paragraph [ref=e425]:
+                - generic [ref=e426]: Copyright
+                - text: Nestlé Nespresso S.A. 2026
+  - alert [ref=e427]
+  - alert [ref=e428]
+  - generic:
+    - iframe
